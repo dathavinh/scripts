@@ -1,8 +1,8 @@
 # scripts
 
 ## Requirements:
-python2.7
-pip10.0.1
+- python2.7
+- pip10.0.1
 
 
 ## Installation:
@@ -11,5 +11,8 @@ pip10.0.1
 
 ### Lunch Ordering from Now
 - Adjust your config in `config.py`.
-- Set crontab on your "server" `*  *  *  *  1-5  /usr/local/bin/python2.7 /Users/dat.havinh/scripts/lunch_ordering.py --env=prd`
+- Set crontab on your "server" 
+
+`*  *  *  *  1-5  /usr/local/bin/python2.7 /Users/dat.havinh/scripts/lunch_ordering.py --env=prd`
+- Create your `config.py` from `config.py.example`
 That's it.
