@@ -1,0 +1,4 @@
+EMAIL = 'john.doe@gmail.com' # Your email (username) to login Foody
+ENCODED_PASSWORD = 'yourpwdasbase64sootherpeoplecantjustlookatit'  # Your based64 encoded password
+OWNER_USER_ID = 'SLACKID'  # Your Slack User ID
+SLACK_TEST_TOKEN = 'TOKEN'  # Get your at https://api.slack.com/custom-integrations/legacy-tokens#legacy-info
