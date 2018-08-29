@@ -10,9 +10,10 @@
 
 
 ### Lunch Ordering from Now
+- Create your `config.py` from `config.py.example`
 - Adjust your config in `config.py`.
 - Set crontab on your "server" 
 
 `*  *  *  *  1-5  /usr/local/bin/python2.7 /Users/dat.havinh/scripts/lunch_ordering.py --env=prd`
-- Create your `config.py` from `config.py.example`
+
 That's it.
